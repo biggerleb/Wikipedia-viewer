@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+}
+
+body {
+	background-color: #E8E8E8;
+	font-family: 'Arsenal', sans-serif;
+}
+
+#input {
+	border-color: #564256;
+	border-width: 1px;
+	text-align: center;
+}
+
+button {
+	margin-top: 28px;
+}
+
+a {
+	position:absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	height: 100%;
+}
+
+.wikiResult {
+	background-color: white;
+	border: 1px solid #564256;
+	border-radius: 2px;
+	margin-top: 28px;
+	padding-top: 10px;
+	transition: border 0.3s;
+}
+
+.wikiResult p {
+	text-indent: 2rem;
+}
+
+#searchRow {
+	margin-top: 25%;
+}
+
+#butt {
+	color: white;
+	background-color: #564256;
+}
+
+#title, #description {
+	position: absolute;
+	display: none;
+}
+
+button, input{
+	-webkit-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.30);
+	-moz-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.30);
+	box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.30);
+}
+
+.wikiResult {
+	-webkit-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.29);
+	-moz-box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.29);
+	box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.29);
+}
+
+#butt:hover {
+	background-color: #0f5612;
+}
+
+.wikiResult:hover {
+	border-color: #0f5612;
+}
+
+.btn:focus, .btn:active {
+   outline: none;
+   box-shadow: none;
+}
+
+
+#input[type="text"]:focus {
+ 	-webkit-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.41);
+	-moz-box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.41);
+	box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.41);
+  	outline: 0 none;
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+::-moz-placeholder {  
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}

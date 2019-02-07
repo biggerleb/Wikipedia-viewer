@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./wiki.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <p id="title"></p>  <!-- these two p's store data from $ load() -->
+    <p id="description"></p>   
+    <div class="container align-items-center">
+      <div class="row justify-content-center" id="searchRow">
+        <div class="col-lg-4 col-sm-7 col-10">
+          <input id="input" class="form-control form-control-lg" type="text" placeholder="Search in Wikipedia" onfocus="this.placeholder = ''"
+          onblur="this.placeholder = 'Search in Wikipedia'">
+        </div>
+      </div>
+      <div class="row justify-content-center" id="buttonRow">
+        <button type="button" class="btn" id="butt">Random Wikipedia Page</button>
+      </div>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./wiki.js"></script>
+  </body>
+</html>
